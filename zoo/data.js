@@ -3,7 +3,7 @@ module.exports = {
     { 
       id: '0938aa23-f153-4937-9f88-4858b24d6bce',
       name: 'lions',
-      popularity: 4,
+      popularxity: 4,
       location: 'NE',
       residents: [
         { 
@@ -31,7 +31,7 @@ module.exports = {
     { 
       id: 'e8481c1d-42ea-4610-8e11-1752cfc05a46',
       name: 'tigers',
-      popularity: 5,
+      popularxity: 5,
       location: 'NW',
       residents: [
         { 
@@ -49,7 +49,7 @@ module.exports = {
     { 
       id: 'baa6e93a-f295-44e7-8f70-2bcdc6f6948d',
       name: 'bears',
-      popularity: 5,
+      popularxity: 5,
       location: 'NW',
       residents: [
         { 
@@ -72,7 +72,7 @@ module.exports = {
     { 
       id: 'ef3778eb-2844-4c7c-b66c-f432073e1c6b',
       name: 'penguins',
-      popularity: 4,
+      popularxity: 4,
       location: 'SE',
       residents: [
         { 
@@ -100,7 +100,7 @@ module.exports = {
     { 
       id: '533bebf3-6bbe-41d8-9cdf-46f7d13b62ae',
       name: 'otters',
-      popularity: 4,
+      popularxity: 4,
       location: 'SE',
       residents: [
         { 
@@ -119,7 +119,7 @@ module.exports = {
           age: 9
         },
         { 
-          name: 'Margherita',
+          name: 'Margherxita',
           sex: 'female',
           age: 10
         },
@@ -128,7 +128,7 @@ module.exports = {
     { 
       id: '89be95b3-47e4-4c5b-b687-1fabf2afa274',
       name: 'frogs',
-      popularity: 2,
+      popularxity: 2,
       location: 'SW',
       residents: [
         { 
@@ -146,7 +146,7 @@ module.exports = {
     { 
       id: '78460a91-f4da-4dea-a469-86fd2b8ccc84',
       name: 'snakes',
-      popularity: 3,
+      popularxity: 3,
       location: 'SW',
       residents: [
         { 
@@ -164,7 +164,7 @@ module.exports = {
     { 
       id: 'bb2a76d8-5fe3-4d03-84b7-dba9cfc048b5',
       name: 'elephants',
-      popularity: 5,
+      popularxity: 5,
       location: 'NW',
       residents: [
         { 
@@ -192,7 +192,7 @@ module.exports = {
     { 
       id: '01422318-ca2d-46b8-b66c-3e9e188244ed',
       name: 'giraffes',
-      popularity: 4,
+      popularxity: 4,
       location: 'NE',
       residents: [
         { 
@@ -285,7 +285,7 @@ module.exports = {
     },
     {
       id: 'c1f50212-35a6-4ecd-8223-f835538526c2',
-      firstName: 'Ardith',
+      firstName: 'Ardxith',
       lastName: 'Azevado',
       managers: ['b0dc644a-5335-489b-8a2c-4e086c7819a2'],
       responsibleFor: ['e8481c1d-42ea-4610-8e11-1752cfc05a46',

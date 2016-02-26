@@ -1,13 +1,23 @@
 function multiplyBy10 (array) {
- // your code here
+  return array.map(function(elem){
+    return elem*10;
+  })
 };
 
 function shiftRight (array) {
- // your code here
+ return array.map(function(elem, index, array){
+   if(index===0){
+     return array[array.length-1]
+   }else {
+     return array[index-1]
+   }
+ })
 };
 
 function onlyVowels (array) {
- // your code here
+  return array.map(function(elem,index,array){
+    return elem.replace(/[^aeiou]/gi, '');
+  })
 };
 
 function doubleMatrix (array) {

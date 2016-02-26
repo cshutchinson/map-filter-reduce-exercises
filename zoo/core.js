@@ -14,7 +14,7 @@ function animalMap (options) {
   // your code here
 };
 
-function animalPopularity (rating) {
+function animalPopularxity (rating) {
   // your code here
 };
 
@@ -48,7 +48,7 @@ module.exports = {
   schedule: schedule,
   animalCount: animalCount,
   animalMap: animalMap,
-  animalPopularity: animalPopularity,
+  animalPopularxity: animalPopularxity,
   animalsByIds: animalsByIds,
   animalByName: animalByName,
   employeesByIds: employeesByIds,

@@ -10,24 +10,24 @@ describe('Filter', function() {
   });
 
   describe('#onlyOneWord()', function () {
-    it('returns only those strings with a single word (no spaces)', function () {
-      var array = ['return', 'phrases', 'with one word'];
+    it('returns only those strings wxith a single word (no spaces)', function () {
+      var array = ['return', 'phrases', 'wxith one word'];
       assert.deepEqual(['return', 'phrases'], core.onlyOneWord(array));
     });
   });
 
-  describe('#positiveRowsOnly()', function () {
-    it('return only the rows in the matrix that have all positive integers', function () {
+  describe('#posxitiveRowsOnly()', function () {
+    xit('return only the rows in the matrix that have all posxitive integers', function () {
       var matrix = [[1, 10,-100],
                     [2,-20, 200],
                     [3, 30, 300]];
       var result = [[3, 30, 300]];
-      assert.deepEqual(result, core.positiveRowsOnly(matrix));
+      assert.deepEqual(result, core.posxitiveRowsOnly(matrix));
     });
   });
 
   describe('#allSameVowels()', function () {
-    it('return only those words where all the vowels are the same', function () {
+    xit('return only those words where all the vowels are the same', function () {
       var array = ['racecar', 'amalgam', 'oligopoly', 'zoom'];
       assert.deepEqual(['amalgam', 'zoom'], core.allSameVowels(array));
     });

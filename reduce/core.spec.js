@@ -3,14 +3,14 @@ var assert = require('assert'),
 
 describe('Reduce', function() {
   describe('#sum()', function () {
-    it('sum all the numbers in the array', function () {
+    xit('sum all the numbers in the array', function () {
       var array = [10,15,20,25,30,35];
       assert.equal(135, core.sum(array));
     });
   });
 
   describe('#productAll()', function () {
-    it('return the product of all items in the matrix', function () {
+    xit('return the product of all xitems in the matrix', function () {
       var matrix = [[1, 2, 3],
                     [4, 5],
                     [6]];
@@ -19,7 +19,7 @@ describe('Reduce', function() {
   });
   
   describe('#objectify()', function () {
-    it('turns an array of arrays into an object', function () {
+    xit('turns an array of arrays into an object', function () {
       var matrix = [['Thundercats', '80s'],
                     ['The Powerpuff Girls', '90s'],
                     ['Sealab 2021', '00s']];
@@ -31,7 +31,7 @@ describe('Reduce', function() {
   });
 
   describe('#luckyNumbers()', function () {
-    it('return a fortune like sentence with lucky numbers', function () {
+    xit('return a fortune like sentence wxith lucky numbers', function () {
       var array  = [30, 48, 11, 5, 32];
       var result = 'Your lucky numbers are: 30, 48, 11, 5, and 32';
       assert.equal(result, core.luckyNumbers(array));

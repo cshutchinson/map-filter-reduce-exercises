@@ -10,7 +10,7 @@ describe('Map', function() {
   });
 
   describe('#shiftRight()', function () {
-    it('shifts items in an array to the right by one', function () {
+    it('shifts xitems in an array to the right by one', function () {
       var array = [{ name: '' }, 10, "left-side"];
       assert.deepEqual(["left-side", { name: '' }, 10], core.shiftRight(array));
     });
@@ -24,7 +24,7 @@ describe('Map', function() {
   });
 
   describe('#doubleMatrix()', function () {
-    it('doubles the numbers in the matrix, maintaining the same structure', function () {
+    xit('doubles the numbers in the matrix, maintaining the same structure', function () {
       var matrix = [[1,2,3],
                     [4,5,6],
                     [7,8,9]];

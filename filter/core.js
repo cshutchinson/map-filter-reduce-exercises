@@ -1,13 +1,19 @@
 function onlyEven (array) {
-  // your code here
+  return array.filter(function(elem){
+    return elem%2 === 0;
+  })
 };
 
 function onlyOneWord (array) {
-  // your code here
+  return array.filter(function(elem){
+    return !elem.includes(" ")
+  })
 };
 
-function positiveRowsOnly (array) {
-  // your code here
+function posxitiveRowsOnly (array) {
+  return array.filter(function(elem){
+    elem.filter
+  })
 };
 
 function allSameVowels (array) {
@@ -17,6 +23,6 @@ function allSameVowels (array) {
 module.exports = {
   onlyEven: onlyEven,
   onlyOneWord: onlyOneWord,
-  positiveRowsOnly: positiveRowsOnly,
+  posxitiveRowsOnly: posxitiveRowsOnly,
   allSameVowels: allSameVowels
 };
